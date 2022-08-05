@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="popup.css">
+  </head>
+  <body class="background" style="width: 20rem">
+    <div class="title">
+        Welcome to extension chida v1 <br>
+        <a href="options.html" style="color: white;">Click here to learn more</a>
+    </div>
+    <div class="content">
+        <form action="/action_page.php">
+            <label class="labelText">Chose a word to be replaced:</label>
+            <input class="inputText" type="text" id="toReplace" name="toReplace" value="the"><br><br>
+            <label class="labelText">Chose a word to replace with:</label>
+            <input class="inputText" type="text" id="replace" name="replace" value="the Magic"><br><br>          
+        </form>
+        
+    </div>
+    <div >
+        <button id="updateText" class="button"> Improve website Now!</button>
+    </div>
+
+    <script src="popup.js"></script>
+  </body>
+</html>
